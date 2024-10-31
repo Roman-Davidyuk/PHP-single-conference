@@ -1,0 +1,16 @@
+{
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ConferenceApp\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.10",
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^8.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
